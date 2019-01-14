@@ -11,9 +11,7 @@ class App extends Component {
     return (
       <Provider store={store}>
       <div className="App">
-        <header className="App-header">
-         
-        </header>
+      
         <PostForm />
         <hr />
         <Posts />
